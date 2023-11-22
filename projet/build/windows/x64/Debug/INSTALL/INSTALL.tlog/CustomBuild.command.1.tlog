@@ -1,0 +1,10 @@
+^C:\USERS\AYMEN\DOWNLOADS\WELCOME-LOGIN-SIGNUP-PAGE-FLUTTER-MASTER\WELCOME-LOGIN-SIGNUP-PAGE-FLUTTER-MASTER\BUILD\WINDOWS\CMAKEFILES\5496468E2A17E3B68607BB4000B97163\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
